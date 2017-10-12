@@ -1,0 +1,40 @@
+ /*************
+ // google fonts available on this page
+ 'Roboto', 
+ 'Roboto Condensed' 
+=======================
+ font-size, padding, margin, line-height should be in rem
+ ****************/
+ @import '~assets/scss/mixins';
+
+.modal{
+
+    &__header{
+        padding-bottom: 5px;
+        border: 0px; 
+    }
+    &__title{
+        padding-left: 15px;
+    }
+    &__body{
+        position: relative;
+    }
+    &__footer{
+        box-shadow: 0px -10px 5px -8px #ccc;
+        text-align: center;
+        padding-top: rem(2);
+    }
+    &__tab-item{
+        font-size: rem(1.5);
+    }
+    &__scroll{
+        max-height: 300px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-bottom: 15px;
+    }
+
+    &__label{
+        font-size: rem(1.3);
+    }
+}

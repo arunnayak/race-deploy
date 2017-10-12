@@ -1,0 +1,85 @@
+{
+    "id": 1,
+    "floorName": "FP_07_DOL_01",
+    "pageTitle": "Service Orders",
+    "pageTitleColor": "#fff",
+    "headerColor": "#445e75",
+    "headerIconsColor": "#fff",
+    "header": {
+        "left": [],
+        "right": [
+            {
+                "elementTitle": "",
+                "position": 1,
+                "style": "{'textColor':'#87a4b8'}",
+                "componentCategory": "BTN",
+                "componentType": "DEFAULTSBTN",
+                "dataprovider": "",
+                "dataproviderType": "",
+                "dataproviderParameters": "",
+                "dpParameters": "",
+                "navigation": ""
+            },
+            {
+                "elementTitle": "",
+                "position": 2,
+                "style": "{'textColor':'#87a4b8'}",
+                "componentCategory": "BTN",
+                "componentType": "SEARCHBTN",
+                "dataprovider": "",
+                "dataproviderType": "",
+                "dpParameters": "",
+                "navigation": ""
+            }
+        ]
+    },
+    "body": {
+        "tabs": [
+            {
+                "elementTitle": "FIND ORDER",
+                "position": 1,
+                "style": "{'textColor':'','selectionColor':''}",
+                "componentCategory": "WIDGETTABBARITEM",
+                "componentType": "ORDERSTAB",
+                "dataprovider": "SOHEADER",
+                "dataproviderType": "GET",
+                "dpParameters": "",
+                "navigation": ""
+            },
+            {
+                "elementTitle": "ENTER SERVICES",
+                "position": 2,
+                "style": "{'textColor':'','selectionColor':''}",
+                "componentCategory": "WIDGETTABBARITEM",
+                "componentType": "ORDERSTAB",
+                "dataprovider": "",
+                "dataproviderType": "GET",
+                "dpParameters": "",
+                "navigation": ""
+            },
+            {
+                "elementTitle": "ADD NOTES & MEDIA",
+                "position": 3,
+                "style": "{'textColor':'','selectionColor':''}",
+                "componentCategory": "WIDGETTABBARITEM",
+                "componentType": "ORDERSTAB",
+                "dataprovider": "",
+                "dataproviderType": "GET",
+                "dpParameters": "",
+                "navigation": ""
+            },
+            {
+                "elementTitle": "REVIEW AND CONFIRM",
+                "position": 4,
+                "style": "{'textColor':'','selectionColor':''}",
+                "componentCategory": "WIDGETTABBARITEM",
+                "componentType": "ORDERSTAB",
+                "dataprovider": "",
+                "dataproviderType": "GET",
+                "dpParameters": "",
+                "navigation": ""
+            }
+        ]
+    },
+    "footer": []
+}
