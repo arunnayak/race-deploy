@@ -20,8 +20,8 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-module.exports = webpackAsyncContext;
 webpackAsyncContext.id = "../../../../../src/$$_gendir lazy recursive";
+module.exports = webpackAsyncContext;
 
 /***/ }),
 
@@ -67,7 +67,7 @@ var _a;
 /***/ "../../../../../src/app/app-designer/welcome/welcome.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<title>Race Enterprise: App Designer</title>\n<div class=\"wrapper active\">  \n<app-sidebar></app-sidebar>\n<app-topmenu></app-topmenu>\n<p style=\"padding: 10px;\">\n  app designer welcome works!\n  <br/>\n<br/>\n  \n  <a href=\"#/app-designer/list\" target=\"_blank\" class=\"btn btn-primary\">Launch app designer</a>\n</p>\n</div>"
+module.exports = "<title>Race Enterprise: App Designer</title>\n<div class=\"wrapper active\">  \n<app-sidebar></app-sidebar>\n<app-topmenu></app-topmenu>\n<p style=\"padding: 10px;\">\n  app designer welcome works!\n  <br/>\n<br/>\n  \n  <a href=\"#/app-designer/list\" class=\"btn btn-primary\">Launch app designer</a>\n</p>\n</div>"
 
 /***/ }),
 
@@ -709,7 +709,7 @@ var _a;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_angularfire2__ = __webpack_require__("../../../../angularfire2/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__("../../../../angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_database__ = __webpack_require__("../../../../angularfire2/database.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_routing_module__ = __webpack_require__("../../../../../src/app/app-routing.module.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_designer_sanitize_html_pipe__ = __webpack_require__("../../../../../src/app/app-designer/sanitize-html.pipe.ts");
